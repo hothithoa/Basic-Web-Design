@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 5px;
+}
+
+.left {
+    width: 400px;
+}
+
+.right {
+    width: 400px;
+}
+
+.left1 {
+    height: 300px;
+}
+
+.left2 {
+    height: 200px;
+}
+
+.left3 {
+    height: 295px;
+}
+
+.right1 {
+    height: 400px;
+}
+
+.right2 {
+    height: 400px;
+}
+
+.left div,
+.right div {
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

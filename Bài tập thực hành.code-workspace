@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Bài tập thực hành"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Bai2.html"
+	}
+}

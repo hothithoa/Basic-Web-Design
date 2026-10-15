@@ -1,0 +1,27 @@
+tr.header{
+    background-color: aqua;
+    color: blue;
+    font-size: 25px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+table tr:nth-child(2){
+    background-color: pink;
+    font-size: 14px;
+}
+table tr:nth-child(2):hover{
+    background-color: red;
+}
+table tr:nth-child(3):hover{
+    background-color: green;
+}
+table tr:nth-child(4){
+    background-color: lightblue;
+    font-size: 14px;
+}
+table tr:nth-child(4):hover{
+    background-color: blue;
+}
