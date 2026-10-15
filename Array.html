@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Demo</title>
+    <style>
+        body {
+            background-color: white;
+            text-align: center;
+            margin: 0;
+            padding-top: 40px;
+            font-family: Arial, sans-serif;
+        }
+
+        #demo {
+            display: block;
+            background-color: yellow;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 8px 12px;
+            font-size: 30px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var mang = ["Học", "lập", "trình", "tại", "freetuts.net"];
+        document.getElementById("demo").innerHTML = mang.join(", ");
+    </script>
+</body>
+</html>
